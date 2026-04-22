@@ -1,101 +1,156 @@
-# 124B2B033_Blockchain_Assignment
-**Blockchain Lab Assignments**
+**124B2B033_Blockchain_Assignment**
 
-👤 Student Details
+**Blockchain Technology Lab Assignments**
+
+👤 **Student Details**
+
 Name: Mitali Chaudhari
-PRN:124B2B033
-Course Name: Blockchain Technology Lab
 
-📌 Overview
+PRN: 124B2B033
 
-This repository contains all five Blockchain Lab assignments, covering essential concepts of Web3 development such as smart contracts, decentralized applications (DApps), blockchain deployment, IPFS storage, and DAO governance.
+Course: Blockchain Technology Lab
 
-The assignments are designed to provide both theoretical understanding and practical implementation of blockchain technologies.
+**📌 Overview**
 
-Assignment Descriptions
+This repository contains five Blockchain Lab assignments, covering key concepts of Web3 development, including:
+
+Smart Contract Development
+Blockchain Deployment
+Decentralized Applications (DApps)
+IPFS (Decentralized Storage)
+DAO (Decentralized Governance)
+
+Each assignment combines theoretical understanding + practical implementation using modern blockchain tools.
+
+**📂 Repository Structure**
+
+Assignment-1/
+
+Assignment-2/
+
+Assignment-3/
+
+Assignment-4/
+
+Assignment-5/
+
+README.md
+
+**Assignment Details**
 
 🔹 Assignment 1: Smart Contract Development
-
-Developed a basic smart contract using Solidity to store and retrieve a single integer value on the blockchain.
-This demonstrates core concepts like state variables and functions.
-
+Developed a basic smart contract using Solidity
+Stores and retrieves a value on blockchain
+Covers:
+State variables
+Functions
+Basic contract structure
 
 🔹 Assignment 2: Smart Contract Deployment
+Deployed contract on blockchain test network:
+Sepolia / Polygon Amoy
+Learned:
+Gas fees
+Transactions
+Wallet interaction using MetaMask
 
-Deployed the smart contract on a blockchain test network (such as Sepolia / Polygon Amoy) to understand real-world deployment.
-Focuses on gas fees, transactions, and network interaction.
-
-
-🔹 Assignment 3: Web Interface + MetaMask
-
-Built a simple frontend DApp using HTML, CSS, and JavaScript.
-Integrated MetaMask and ethers.js to interact with the deployed smart contract directly from the browser.
-
+🔹 Assignment 3: Web DApp + MetaMask Integration
+Built a frontend using:
+HTML, CSS, JavaScript
+Integrated:
+MetaMask
+ethers.js
+Features:
+Connect wallet
+Interact with smart contract via browser
 
 🔹 Assignment 4: IPFS Integration
-
-Implemented decentralized file storage using IPFS (Pinata).
-Users can upload files and retrieve them using a CID (Content Identifier).
-
+Used Pinata (IPFS service) for decentralized storage
+Features:
+Upload file to IPFS
+Generate CID (Content Identifier)
+Retrieve file using CID via gateway
 
 🔹 Assignment 5: DAO Smart Contract
+Implemented a DAO (Decentralized Autonomous Organization)
+Features:
+Member management
+Proposal creation
+Voting system
+Execution logic
 
-Created a basic Decentralized Autonomous Organization (DAO) smart contract.
-Users can:
 
-Create proposals
-Vote on proposals
-Execute decisions based on voting results
-
-Tech Stack Used
+**Tech Stack**
 Solidity
 Remix IDE
 MetaMask
 Ethers.js
 HTML, CSS, JavaScript
+Node.js
+IPFS (Pinata)
 Sepolia Testnet
 Polygon Amoy Testnet
-IPFS (Pinata)
 
-
-**How to Run Each Assignment**
+** How to Run Assignments**
 
 ▶️ Assignment 1 & 2 (Smart Contracts)
 Open Remix IDE: https://remix.ethereum.org
-Open the .sol file
-Compile the contract
+Open .sol file
+Compile contract
 Go to Deploy & Run Transactions
 Select Injected Provider (MetaMask)
-Connect your MetaMask wallet
+Connect wallet
 Select network:
-Sepolia (Assignment 1)
-Polygon Amoy (Assignment 2)
-Click Deploy and confirm transaction
+Sepolia / Polygon Amoy
+Click Deploy
 
 ▶️ Assignment 3 (Web DApp)
-Open terminal in the assignment-3 folder
-
-Run:
-
+cd assignment-3
 python -m http.server 3000
-Open browser: http://127.0.0.1:3000
-Connect MetaMask
-Interact with the smart contract
 
-▶️ Assignment 4 (IPFS File Storage)
-Open index.html (or use Live Server)
-Upload a file
-Copy the generated CID
-Use CID to retrieve the file
+Open browser:
+
+http://127.0.0.1:3000
+Connect MetaMask
+Interact with smart contract
+
+▶️ Assignment 4 (IPFS)
+cd assignment-4
+npm install
+node upload.js
+node retrieve.js
+Upload file → get CID
+Retrieve file using CID
 
 ▶️ Assignment 5 (DAO Smart Contract)
 Open Remix IDE
-Compile dao.sol
+Compile DAO.sol
 Deploy using MetaMask
-Interact with functions:
+Use functions:
 createProposal()
 vote()
 executeProposal()
-View results using getProposals()
+View using:
+getProposal()
 
+** Screenshots**
 
+Each assignment folder contains execution screenshots as proof of working.
+
+**Result**
+
+All assignments were successfully implemented, demonstrating:
+
+Smart contract development & deployment
+Frontend blockchain interaction
+Decentralized storage using IPFS
+DAO-based governance system
+
+** Conclusion**
+
+This repository showcases a complete hands-on journey into Blockchain and Web3 development, covering:
+
+On-chain logic (Smart Contracts)
+Off-chain interaction (Frontend + MetaMask)
+Decentralized storage (IPFS)
+Governance systems (DAO)
