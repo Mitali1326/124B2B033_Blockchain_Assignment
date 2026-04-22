@@ -13,25 +13,30 @@ This repository contains all five Blockchain Lab assignments, covering essential
 The assignments are designed to provide both theoretical understanding and practical implementation of blockchain technologies.
 
 Assignment Descriptions
+
 🔹 Assignment 1: Smart Contract Development
 
 Developed a basic smart contract using Solidity to store and retrieve a single integer value on the blockchain.
 This demonstrates core concepts like state variables and functions.
+
 
 🔹 Assignment 2: Smart Contract Deployment
 
 Deployed the smart contract on a blockchain test network (such as Sepolia / Polygon Amoy) to understand real-world deployment.
 Focuses on gas fees, transactions, and network interaction.
 
+
 🔹 Assignment 3: Web Interface + MetaMask
 
 Built a simple frontend DApp using HTML, CSS, and JavaScript.
 Integrated MetaMask and ethers.js to interact with the deployed smart contract directly from the browser.
 
+
 🔹 Assignment 4: IPFS Integration
 
 Implemented decentralized file storage using IPFS (Pinata).
 Users can upload files and retrieve them using a CID (Content Identifier).
+
 
 🔹 Assignment 5: DAO Smart Contract
 
@@ -53,7 +58,8 @@ Polygon Amoy Testnet
 IPFS (Pinata)
 
 
-How to Run Each Assignment
+**How to Run Each Assignment**
+
 ▶️ Assignment 1 & 2 (Smart Contracts)
 Open Remix IDE: https://remix.ethereum.org
 Open the .sol file
@@ -92,5 +98,4 @@ vote()
 executeProposal()
 View results using getProposals()
 
-Always keep test ETH/MATIC for transactions
-Never use real funds while testing
+
