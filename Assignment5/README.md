@@ -95,7 +95,7 @@ Go to: https://remix.ethereum.org
 Create file → `DAO.sol`
 
 ### Step 3: Paste Code
-Paste your smart contract code
+Write a Smart Contract Code
 
 ### Step 4: Compile
 - Go to Solidity Compiler
