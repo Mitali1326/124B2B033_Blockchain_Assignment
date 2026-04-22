@@ -1,5 +1,5 @@
 # 124B2B033_Blockchain_Assignment
-🚀 Blockchain Lab Assignments
+**Blockchain Lab Assignments**
 
 👤 Student Details
 Name: Mitali Chaudhari
