@@ -38,8 +38,8 @@ The file is accessed via IPFS gateway
 File content is fetched from decentralized network
 
 **IPFS Gateway Used**
-https://gateway.pinata.cloud/ipfs/<CID>
+https://gateway.pinata.cloud/ipfs/QmX8ne4qzbyWkjCaMXukzLBZXx654ELJ1Xhu7uMpACyKy1
 
 
-** IPFS Hash Example**
-QmExampleCID123456789
+**CID**
+CID: QmX8ne4qzbyWkjCaMXukzLBZXx654ELJ1Xhu7uMpACyKy1
